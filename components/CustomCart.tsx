@@ -5,7 +5,7 @@ import { Button } from './ui/button'
 
 const CustomCard = () => {
   return (
-    <div className='group my-10 flex max-w-2xl flex-col items-center rounded-3xl bg-[#f8f8f8] px-14 pb-16 text-center transition duration-500 ease-in-out hover:shadow-2xl dark:bg-[#121017] sm:m-0 sm:flex-row sm:px-8 sm:py-12 sm:text-start'>
+    <div className='group my-10 flex max-w-2xl flex-col items-center rounded-3xl bg-[#f8f8f8] px-14 pb-16 text-center transition duration-500 ease-in-out hover:shadow-2xl dark:bg-[#121017] dark:hover:scale-105 sm:m-0 sm:flex-row sm:px-8 sm:py-12 sm:text-start'>
       <div className='-mt-[100px] h-[250px] w-full max-w-[1000px] overflow-hidden rounded-md transition duration-700 ease-in-out group-hover:scale-105 group-hover:shadow-2xl sm:-ml-[60px] sm:mr-8 sm:mt-0 sm:h-[300px] sm:max-w-64'>
         <Image
           alt='placeholder Image'
